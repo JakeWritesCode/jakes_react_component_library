@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# My React Component Library
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A bunch of reusable components for my react project.
+
+
+
 
 ## Available Scripts
 
