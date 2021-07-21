@@ -1,4 +1,4 @@
-//Tests for the SimpleButton1 component.
+//Tests for the SimpleToggleButton1 component.
 
 import SimpleButton1 from "./simpleButton1";
 import {render, screen} from "@testing-library/react";
