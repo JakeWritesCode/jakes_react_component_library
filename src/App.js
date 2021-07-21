@@ -3,9 +3,11 @@ import './App.css';
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import SimpleButton1 from "./components/simpleButton1/simpleButton1.js";
+import Navbar1 from "./components/navbar1/navbar1";
 
 function App() {
     return (
+
         <div className="container">
             <div className="row mb-3">
                 <div className="col-12">
@@ -31,6 +33,15 @@ function App() {
                     <SimpleButton1 buttonColour={"light"} text={"SimpleButton1"} rounded={false}/>
                     <SimpleButton1 buttonColour={"dark"} text={"SimpleButton1"} rounded={false}/>
                 </div>
+            </div>
+            <div className="row mt-4">
+                <div className="col-12">
+                    <h2>Navbars</h2>
+                    <p>A bunch of navbars.</p>
+                </div>
+            </div>
+            <div className="row">
+                <Navbar1 buttons={[{}]} homeLink={"1234"}/>
             </div>
         </div>
     )
