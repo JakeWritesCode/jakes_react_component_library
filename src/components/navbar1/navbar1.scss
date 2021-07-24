@@ -53,7 +53,7 @@ html {
 }
 
 /*-------------Nav-------------*/
-.nav-wrapper-fixed {
+#nav-wrapper-fixed {
   overflow: hidden;
   width: 100%;
   margin: 0 auto;
@@ -63,14 +63,14 @@ html {
   z-index: 100;
 }
 
-.nav-wrapper {
+#nav-wrapper {
   overflow: hidden;
   width: 100%;
   margin: 0 auto;
   z-index: 100;
 }
 
-.nav-base {
+#nav {
   @include shadow-box;
   display: flex;
   flex-direction: column;

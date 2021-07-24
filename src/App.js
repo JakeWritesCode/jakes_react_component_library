@@ -41,7 +41,10 @@ function App() {
                 </div>
             </div>
             <div className="row">
-                <Navbar1 buttons={[{}]} homeLink={"1234"}/>
+                <Navbar1 buttons={[
+                    {"link": "#", "text": "Button 1"},
+                    {"link": "#", "text": "Button 2"},
+                ]} homeLink={"1234"}/>
             </div>
         </div>
     )
